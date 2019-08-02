@@ -1,0 +1,29 @@
+{
+  "name": "flexbox-julio",
+  "version": "1.0.0",
+  "description": "tuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ni-c0de-mus/flexbox-julio.git"
+  },
+  "keywords": [
+    "coding",
+    "with",
+    "julio"
+  ],
+  "author": "Ni-c0de-mus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ni-c0de-mus/flexbox-julio/issues"
+  },
+  "homepage": "https://github.com/Ni-c0de-mus/flexbox-julio#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}

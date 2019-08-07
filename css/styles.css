@@ -102,11 +102,22 @@ header {
     top: 1rem;
 }
 
-.active-bar {
+.active .bar {
     background-color:transparent;
 }
 
-.active .bar{;before}
+.active .bar::before {
+    transform: rotate(45deg);
+}
+
+.active .bar::after {
+    transform: rotate(-45deg);
+}
+
+.active .bar::before,
+.active .bar::after {
+    top: 0;
+}
 
 /* Header Nav */
 
@@ -175,8 +186,6 @@ header {
 .main-btn:active {
     transform: translate(0);
     box-shadow: none;
-}
-
 }
 
 /* Section Our Story */
